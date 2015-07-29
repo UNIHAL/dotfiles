@@ -63,6 +63,8 @@ set smarttab
 "ファイル内の <Tab> が対応する空白の数
 set tabstop=2
 
+" ejsファイルをhtmlと同じシンタックスに
+autocmd BufNewFile,BufReadPost *.ejs set filetype=html
 
 "----------------------------------------
 " zencoding
